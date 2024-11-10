@@ -84,3 +84,16 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.logo {
+    width: 100vw; /* Ensures image fits within viewport width */
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
